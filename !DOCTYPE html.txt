@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dzalfa Jaya Aluminium</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #007BFF; color: white; text-align: center; padding: 1rem; }
+        section { padding: 20px; }
+        .portfolio img { width: 100%; max-width: 300px; margin: 10px; }
+        .form-container { background: #f4f4f4; padding: 20px; }
+        input, textarea { width: 100%; padding: 10px; margin: 5px 0; }
+        button { background: #007BFF; color: white; padding: 10px; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Dzalfa Jaya Aluminium</h1>
+        <p>Spesialis Pintu, Jendela, Kusen, dan Produk Aluminium Berkualitas</p>
+    </header>
+    
+    <section>
+        <h2>Tentang Kami</h2>
+        <p>Dzalfa Jaya Aluminium berdiri sejak 2022, menyediakan layanan profesional dalam pembuatan produk aluminium berkualitas tinggi.</p>
+    </section>
+    
+    <section class="portfolio">
+        <h2>Portofolio</h2>
+        <img src="example1.jpg" alt="Proyek 1">
+        <img src="example2.jpg" alt="Proyek 2">
+    </section>
+    
+    <section class="form-container">
+        <h2>Pesan Sekarang</h2>
+        <form>
+            <input type="text" placeholder="Nama" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Pesan Anda" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+</body>
+</html>
